@@ -8,13 +8,33 @@
 
 > 从 npm 包 `@anthropic-ai/claude-code` **2.1.88** 版本中提取。
 > 发布的包只有一个打包后的 `cli.js`（~12MB）。本仓库的 `src/` 目录包含从 npm 包中解包的 **TypeScript 源码**。
+> 完整仓库声明见 [NOTICE.md](NOTICE.md)。
 
 **语言**: [English](README.md) | **中文** | [한국어](README_KR.md) | [日本語](README_JA.md)
 
 ---
 
+## 仓库定位
+
+- 本仓库由 **Arain** 维护并发布，用作研究档案与分析镜像
+- 上游来源为 npm 包 `@anthropic-ai/claude-code` **2.1.88**
+- 主要用途是逆向学习、技术研究和教育参考
+- 这不是 Anthropic 的官方仓库、发布渠道或支持渠道
+- 仓库声明与下架联系方式见 [NOTICE.md](NOTICE.md)
+
+## 快速入口
+
+- [QUICKSTART.md](QUICKSTART.md) — 构建说明与本地运行方法
+- [NOTICE.md](NOTICE.md) — 仓库状态、权利说明与联系方式
+- [docs/zh](docs/zh) — 中文分析文档
+- [README.md](README.md) — 英文版首页
+
+---
+
 ## 目录
 
+- [仓库定位](#仓库定位) — 这个仓库是什么，以及不是什么
+- [快速入口](#快速入口) — 构建说明、声明文件与文档入口
 - [深度分析文档 (`docs/`)](#深度分析文档-docs) — 遥测、模型代号、卧底模式、远程控制、未来路线图
 - [缺失模块说明](#缺失模块说明108-个模块) — 108 个被 feature gate 移除的模块
 - [架构概览](#架构概览) — 入口 → 查询引擎 → 工具/服务/状态

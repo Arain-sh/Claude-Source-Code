@@ -8,13 +8,33 @@
 
 > Extracted from npm package `@anthropic-ai/claude-code` version **2.1.88**.
 > The published package ships a single bundled `cli.js` (~12MB). The `src/` directory in this repo contains the **unbundled TypeScript source** extracted from the npm tarball.
+> Full repository notice: [NOTICE.md](NOTICE.md)
 
 **Language**: **English** | [中文](README_CN.md) | [한국어](README_KR.md) | [日本語](README_JA.md)
 
 ---
 
+## Repository Snapshot
+
+- Maintained and published by **Arain** as a research archive and analysis mirror
+- Upstream source extracted from npm package `@anthropic-ai/claude-code` **2.1.88**
+- Intended for reverse-engineering study, technical research, and educational reference
+- Not an official Anthropic repository, release channel, or support channel
+- Repository notice and takedown contact: [NOTICE.md](NOTICE.md)
+
+## Quick Links
+
+- [QUICKSTART.md](QUICKSTART.md) — Build notes and local run instructions
+- [NOTICE.md](NOTICE.md) — Repository status, rights notice, and contact information
+- [docs/en/](docs/en) — English analysis reports
+- [README_CN.md](README_CN.md) — Chinese overview
+
+---
+
 ## Table of Contents
 
+- [Repository Snapshot](#repository-snapshot) — What this repo is, and what it is not
+- [Quick Links](#quick-links) — Build guide, notice, and docs entry points
 - [Deep Analysis Reports (`docs/`)](#deep-analysis-reports-docs) — Telemetry, codenames, undercover mode, remote control, future roadmap
 - [Missing Modules Notice](#missing-modules-notice-108-modules) — 108 feature-gated modules not in the npm package
 - [Architecture Overview](#architecture-overview) — Entry → Query Engine → Tools/Services/State
