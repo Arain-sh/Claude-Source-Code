@@ -1,0 +1,45 @@
+name: Repository bug report
+description: Report a repository-specific bug such as broken links, bad metadata, build-guide problems, or archive packaging issues.
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is broken in this repository?
+      placeholder: A clear and concise summary of the issue.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - README / navigation
+        - Build guide / scripts
+        - Analysis docs
+        - Source tree packaging
+        - Metadata / repository settings
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: How can the maintainer reproduce the issue?
+      placeholder: Steps, command lines, links, screenshots, or paths.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: What should happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add environment details, screenshots, or notes if helpful.

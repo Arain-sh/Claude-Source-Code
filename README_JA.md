@@ -1,5 +1,10 @@
 # Claude Source Code v2.1.88 — Arain 管理アーカイブ
 
+[![Maintainer: Arain](https://img.shields.io/badge/maintainer-Arain-black)](https://github.com/Arain-sh)
+[![Status: Unofficial](https://img.shields.io/badge/status-unofficial-orange)](NOTICE.md)
+[![Upstream: 2.1.88](https://img.shields.io/badge/upstream-2.1.88-blue)](https://www.npmjs.com/package/@anthropic-ai/claude-code)
+[![Docs: EN/JA/KO/ZH](https://img.shields.io/badge/docs-EN%2FJA%2FKO%2FZH-green)](docs/ja)
+
 > **管理者**: [Arain](https://github.com/Arain-sh) (`Arain-sh`)  
 > **連絡先**: `arain.shjia@gmail.com` · [arain.ink](https://arain.ink)  
 > **リポジトリ**: [github.com/Arain-sh/Claude-Source-Code](https://github.com/Arain-sh/Claude-Source-Code)
@@ -8,13 +13,42 @@
 
 > npmパッケージ `@anthropic-ai/claude-code` **2.1.88** バージョンから抽出。
 > 配布パッケージはバンドルされた単一の `cli.js`（約12MB）のみを含む。本リポジトリの `src/` ディレクトリにはnpmターボールから抽出した**バンドル前のTypeScriptソース**が格納されている。
+> リポジトリ全体の案内は [NOTICE.md](NOTICE.md) を参照。
 
 **言語**: [English](README.md) | [中文](README_CN.md) | [한국어](README_KR.md) | **日本語**
 
 ---
 
+## リポジトリ概要
+
+- **Arain** が公開・管理する研究用アーカイブ兼分析ミラー
+- 上流ソースは npm パッケージ `@anthropic-ai/claude-code` **2.1.88** から抽出
+- 主な目的はリバースエンジニアリング学習、技術研究、教育参照
+- Anthropic の公式リポジトリ、配布チャネル、サポート窓口ではない
+- 権利・削除依頼・公開方針は [NOTICE.md](NOTICE.md) を参照
+
+## クイックリンク
+
+- [QUICKSTART.md](QUICKSTART.md) — ビルド案内とローカル実行方法
+- [NOTICE.md](NOTICE.md) — リポジトリ状態、権利案内、連絡先
+- [CONTRIBUTING.md](CONTRIBUTING.md) — コントリビュート方針と PR 期待値
+- [SECURITY.md](SECURITY.md) — セキュリティおよび機密報告案内
+- [docs/ja](docs/ja) — 日本語分析ドキュメント
+
+## コミュニティファイル
+
+- [CONTRIBUTING.md](CONTRIBUTING.md) は歓迎される変更範囲を説明
+- [SECURITY.md](SECURITY.md) は機密性のある問題の報告先を説明
+- [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE) にはバグ、修正提案、リポジトリ改善用の issue フォームを用意
+- [.github/pull_request_template.md](.github/pull_request_template.md) には簡潔な PR チェックリストを用意
+
+---
+
 ## 目次
 
+- [リポジトリ概要](#リポジトリ概要) — このリポジトリの位置付け
+- [クイックリンク](#クイックリンク) — 案内、方針、ドキュメント入口
+- [コミュニティファイル](#コミュニティファイル) — コントリビュートと issue/PR 案内
 - [詳細分析レポート (`docs/`)](#詳細分析レポート-docs) — テレメトリ、コードネーム、アンダーカバーモード、リモート制御、今後のロードマップ
 - [欠損モジュール案内](#欠損モジュール案内108モジュール) — feature gateにより除去された108モジュール
 - [アーキテクチャ概要](#アーキテクチャ概要) — エントリポイント → クエリエンジン → ツール/サービス/状態

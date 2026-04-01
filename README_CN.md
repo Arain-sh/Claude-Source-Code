@@ -1,5 +1,10 @@
 # Claude Source Code v2.1.88 — Arain 维护档案
 
+[![Maintainer: Arain](https://img.shields.io/badge/maintainer-Arain-black)](https://github.com/Arain-sh)
+[![Status: Unofficial](https://img.shields.io/badge/status-unofficial-orange)](NOTICE.md)
+[![Upstream: 2.1.88](https://img.shields.io/badge/upstream-2.1.88-blue)](https://www.npmjs.com/package/@anthropic-ai/claude-code)
+[![Docs: EN/JA/KO/ZH](https://img.shields.io/badge/docs-EN%2FJA%2FKO%2FZH-green)](docs/zh)
+
 > **维护者**: [Arain](https://github.com/Arain-sh) (`Arain-sh`)  
 > **联系方式**: `arain.shjia@gmail.com` · [arain.ink](https://arain.ink)  
 > **仓库地址**: [github.com/Arain-sh/Claude-Source-Code](https://github.com/Arain-sh/Claude-Source-Code)
@@ -26,8 +31,17 @@
 
 - [QUICKSTART.md](QUICKSTART.md) — 构建说明与本地运行方法
 - [NOTICE.md](NOTICE.md) — 仓库状态、权利说明与联系方式
+- [CONTRIBUTING.md](CONTRIBUTING.md) — 贡献边界与 PR 约定
+- [SECURITY.md](SECURITY.md) — 安全与敏感问题提交流程
 - [docs/zh](docs/zh) — 中文分析文档
 - [README.md](README.md) — 英文版首页
+
+## 社区与维护
+
+- [CONTRIBUTING.md](CONTRIBUTING.md) 说明哪些仓库改动欢迎提交
+- [SECURITY.md](SECURITY.md) 说明敏感问题应该如何报告，以及哪些问题不应在这里提交
+- [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE) 提供结构化的问题模板，便于反馈 bug、文档修正和仓库改进建议
+- [.github/pull_request_template.md](.github/pull_request_template.md) 为贡献者提供简洁的 PR 自查清单
 
 ---
 
@@ -35,6 +49,7 @@
 
 - [仓库定位](#仓库定位) — 这个仓库是什么，以及不是什么
 - [快速入口](#快速入口) — 构建说明、声明文件与文档入口
+- [社区与维护](#社区与维护) — 贡献、安全与 issue/PR 入口
 - [深度分析文档 (`docs/`)](#深度分析文档-docs) — 遥测、模型代号、卧底模式、远程控制、未来路线图
 - [缺失模块说明](#缺失模块说明108-个模块) — 108 个被 feature gate 移除的模块
 - [架构概览](#架构概览) — 入口 → 查询引擎 → 工具/服务/状态

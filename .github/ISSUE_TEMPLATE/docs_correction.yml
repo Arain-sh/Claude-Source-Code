@@ -1,0 +1,44 @@
+name: Docs or analysis correction
+description: Suggest a factual correction, wording fix, translation fix, or evidence-backed improvement to the docs.
+title: "[Docs]: "
+body:
+  - type: input
+    id: path
+    attributes:
+      label: Affected file path
+      placeholder: e.g. docs/en/01-telemetry-and-privacy.md
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current statement
+      description: Quote or summarize the current wording that needs correction.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+      description: What should it say instead?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Provide code references, screenshots, or reasoning supporting the correction.
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - English
+        - Chinese
+        - Japanese
+        - Korean
+        - Multiple
+    validations:
+      required: true

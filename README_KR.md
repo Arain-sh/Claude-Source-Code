@@ -1,5 +1,10 @@
 # Claude Source Code v2.1.88 — Arain 관리 아카이브
 
+[![Maintainer: Arain](https://img.shields.io/badge/maintainer-Arain-black)](https://github.com/Arain-sh)
+[![Status: Unofficial](https://img.shields.io/badge/status-unofficial-orange)](NOTICE.md)
+[![Upstream: 2.1.88](https://img.shields.io/badge/upstream-2.1.88-blue)](https://www.npmjs.com/package/@anthropic-ai/claude-code)
+[![Docs: EN/JA/KO/ZH](https://img.shields.io/badge/docs-EN%2FJA%2FKO%2FZH-green)](docs/ko)
+
 > **관리자**: [Arain](https://github.com/Arain-sh) (`Arain-sh`)  
 > **연락처**: `arain.shjia@gmail.com` · [arain.ink](https://arain.ink)  
 > **저장소**: [github.com/Arain-sh/Claude-Source-Code](https://github.com/Arain-sh/Claude-Source-Code)
@@ -8,13 +13,42 @@
 
 > npm 패키지 `@anthropic-ai/claude-code` **2.1.88** 버전에서 추출.
 > 배포 패키지는 단일 번들 `cli.js`(~12MB)만 포함한다. 이 저장소의 `src/` 디렉터리에는 npm 타르볼에서 추출한 **번들 전 TypeScript 소스**가 들어 있다.
+> 저장소 전체 안내는 [NOTICE.md](NOTICE.md)를 참고하세요.
 
 **언어**: [English](README.md) | [中文](README_CN.md) | **한국어** | [日本語](README_JA.md)
 
 ---
 
+## 저장소 개요
+
+- **Arain**이 공개하고 관리하는 연구용 아카이브이자 분석 미러
+- 업스트림 소스는 npm 패키지 `@anthropic-ai/claude-code` **2.1.88**에서 추출
+- 주요 목적은 리버스 엔지니어링 학습, 기술 연구, 교육 참고
+- Anthropic 공식 저장소, 배포 채널, 지원 창구가 아님
+- 권리, 삭제 요청, 공개 정책은 [NOTICE.md](NOTICE.md) 참고
+
+## 빠른 링크
+
+- [QUICKSTART.md](QUICKSTART.md) — 빌드 안내와 로컬 실행 방법
+- [NOTICE.md](NOTICE.md) — 저장소 상태, 권리 안내, 연락처
+- [CONTRIBUTING.md](CONTRIBUTING.md) — 기여 범위와 PR 기대사항
+- [SECURITY.md](SECURITY.md) — 보안 및 민감 이슈 제보 안내
+- [docs/ko](docs/ko) — 한국어 분석 문서
+
+## 커뮤니티 파일
+
+- [CONTRIBUTING.md](CONTRIBUTING.md)는 환영되는 변경 범위를 설명합니다
+- [SECURITY.md](SECURITY.md)는 민감한 문제를 어디로 제보해야 하는지 설명합니다
+- [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE)에는 버그, 수정 제안, 저장소 개선용 issue 양식이 있습니다
+- [.github/pull_request_template.md](.github/pull_request_template.md)에는 간단한 PR 체크리스트가 있습니다
+
+---
+
 ## 목차
 
+- [저장소 개요](#저장소-개요) — 이 저장소의 성격과 범위
+- [빠른 링크](#빠른-링크) — 안내, 정책, 문서 진입점
+- [커뮤니티 파일](#커뮤니티-파일) — 기여와 issue/PR 안내
 - [심층 분석 보고서 (`docs/`)](#심층-분석-보고서-docs) — 텔레메트리, 코드네임, 언더커버 모드, 원격 제어, 향후 로드맵
 - [누락 모듈 안내](#누락-모듈-안내108개-모듈) — feature gate로 제거된 108개 모듈
 - [아키텍처 개요](#아키텍처-개요) — 진입점 → 쿼리 엔진 → 도구/서비스/상태

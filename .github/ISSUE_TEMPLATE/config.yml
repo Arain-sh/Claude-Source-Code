@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security or sensitive disclosure
+    url: https://github.com/Arain-sh/Claude-Source-Code/blob/main/SECURITY.md
+    about: Use SECURITY.md for repository-specific sensitive issues. Official Anthropic product issues do not belong here.
+  - name: Rights holder or takedown request
+    url: https://github.com/Arain-sh/Claude-Source-Code/blob/main/NOTICE.md
+    about: Review NOTICE.md for repository status, rights context, and takedown contact information.

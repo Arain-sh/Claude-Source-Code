@@ -1,5 +1,10 @@
 # Claude Source Code v2.1.88 — Arain Maintained Archive
 
+[![Maintainer: Arain](https://img.shields.io/badge/maintainer-Arain-black)](https://github.com/Arain-sh)
+[![Status: Unofficial](https://img.shields.io/badge/status-unofficial-orange)](NOTICE.md)
+[![Upstream: 2.1.88](https://img.shields.io/badge/upstream-2.1.88-blue)](https://www.npmjs.com/package/@anthropic-ai/claude-code)
+[![Docs: EN/JA/KO/ZH](https://img.shields.io/badge/docs-EN%2FJA%2FKO%2FZH-green)](docs/en)
+
 > **Maintainer**: [Arain](https://github.com/Arain-sh) (`Arain-sh`)  
 > **Contact**: `arain.shjia@gmail.com` · [arain.ink](https://arain.ink)  
 > **Repository**: [github.com/Arain-sh/Claude-Source-Code](https://github.com/Arain-sh/Claude-Source-Code)
@@ -26,8 +31,17 @@
 
 - [QUICKSTART.md](QUICKSTART.md) — Build notes and local run instructions
 - [NOTICE.md](NOTICE.md) — Repository status, rights notice, and contact information
+- [CONTRIBUTING.md](CONTRIBUTING.md) — Contribution boundaries and PR expectations
+- [SECURITY.md](SECURITY.md) — Security and sensitive disclosure guidance
 - [docs/en/](docs/en) — English analysis reports
 - [README_CN.md](README_CN.md) — Chinese overview
+
+## Community Files
+
+- [CONTRIBUTING.md](CONTRIBUTING.md) explains what kinds of repository changes are welcome
+- [SECURITY.md](SECURITY.md) explains where to report sensitive issues and what does not belong here
+- [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE) provides structured issue forms for bugs, corrections, and repo improvements
+- [.github/pull_request_template.md](.github/pull_request_template.md) gives contributors a simple PR checklist
 
 ---
 
@@ -35,6 +49,7 @@
 
 - [Repository Snapshot](#repository-snapshot) — What this repo is, and what it is not
 - [Quick Links](#quick-links) — Build guide, notice, and docs entry points
+- [Community Files](#community-files) — Contribution, security, and issue/PR guidance
 - [Deep Analysis Reports (`docs/`)](#deep-analysis-reports-docs) — Telemetry, codenames, undercover mode, remote control, future roadmap
 - [Missing Modules Notice](#missing-modules-notice-108-modules) — 108 feature-gated modules not in the npm package
 - [Architecture Overview](#architecture-overview) — Entry → Query Engine → Tools/Services/State
